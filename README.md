@@ -12,18 +12,26 @@ Movie rental application using Test Driven Design
   * Refactoring para ajustar os parâmetros da classe Rental (possui int points);
   * Testes OK;
   * Refactoring para somar pontos de Movies no Rental;
+  ### Movie points
   * Testes FAIL. Falta referenciar Movies em Rental;
   * Refactoring para referenciar Movies em rental;
   * Testes OK;
   * Refactor para remover pontos do Rental;
   * Testes OK;
+  ### Movie Price
   * Agora testamos o preço do Movie;
   * Testes FAIL. Falta propriedade em Movie;
   * Refactoring para atribuir preço em Movie;
   * Testes OK;
+  ### Rental Price
   * Testamos valor total da Rental;
   * Testes FAIL. Falta somar preços de Movies de Rental;
   * Refactoring para soma;
+  * Testes OK;
+  ### Movie Category
+  * Testamos a categoria correspondente a um filme;
+  * Testes FAIL. Falta propriedade 'category' em Movie;
+  * Refactoring para atribuir category em Movie;
   * Testes OK;
   
   
